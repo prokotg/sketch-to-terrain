@@ -24,7 +24,7 @@ def extract_patch_simple_map():
         for i, j in tqdm(itertools.product(range(raster_blocks.shape[0]), range(raster_blocks.shape[1])),
                          total=t_total):
             block_id = str(count) + str(i) + str(j)
-            data_reference = gr.from_file('./data/data_q' + block_id + '.tif')
+            data_reference = gr.from_file('./data_downsampled_blurred/data_q' + block_id + '.tif')
             if data_reference.mean() < 5:
                 count += 1
                 continue
