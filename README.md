@@ -45,15 +45,6 @@ Results:
 
 ![Sketch to Heightmap & Satellites results](readme/sketchtosatelliteresults.PNG)
 
-### Sketch to Heightmap & Satellites  ###
-Model:
-
-![Sketch to Heightmap & Satellites architecture](readme/sketchtoheightmapsatellitemodel.PNG)
-
-Results:
-
-![Sketch to Heightmap & Satellites results](readme/sketchtoheightmapsatelliteresults.PNG)
-
 
 ### Heightmap to Satellites  ###
 Model:
